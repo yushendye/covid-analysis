@@ -9,8 +9,7 @@ from collections import Counter
 from nltk.corpus import stopwords
 import re
 
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.data.path.append('./nltk_data')
 
 # Load Data
 def load_data(file_path):
