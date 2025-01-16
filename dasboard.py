@@ -10,6 +10,7 @@ from nltk.corpus import stopwords
 import re
 
 nltk.data.path.append('./nltk_data')
+nltk.download()
 
 # Load Data
 def load_data(file_path):
