@@ -9,7 +9,7 @@ from collections import Counter
 from nltk.corpus import stopwords
 import re
 
-nltk.data.path.append('./nltk_data')
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('stopwords')
 
